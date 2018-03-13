@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 115%;
+}
+#content {
+  max-width: 80%;
+  margin: 0 auto;
+}
+#content h1 {
+  margin: 0.5em 0;
+}
+#contactList {
+  border-collapse: collapse;
+  width: 100%;
+}
+#contactList th {
+  background-color: #e6e9f0;
+}
+#contactList td, #contactList th {
+  border: 1px solid #89bdd3;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+.grid {
+  overflow: hidden;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.col {
+  float: left;
+  width: 33.33%;
+}
+.overlayBox {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.boxForm {
+  background: #fff;
+  max-width: 400px;
+  padding: 1.4em;
+  margin: 10% auto;
+}
+.boxForm h2 {
+  margin: 0;
+}
+#msg {
+  font-size: 80%;
+}
+.field {
+  margin: 0.8em 0;
+}
+.field label {
+  width: 50%;
+  display: inline-block;
+}
+.field input {
+  padding: 5px;
+  border: 1px solid #89bdd3;
+  border-radius: 5px;
+}
+.btn-fields, .boxForm h2, #msg {
+  text-align: center;
+}
+button {
+  background: #232323;
+  color: #fefefe;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 0 2px;
+}
